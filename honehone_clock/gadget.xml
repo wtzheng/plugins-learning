@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>HoneHone Clock</name>
+	<namespace>HoneHone.Clock</namespace>
+	<version>1.0.0.0</version>
+	<author name="Zheng Wantong">
+		<!-- <info url="www.alex.com.ro"/> -->
+	</author>
+	<copyright>&#169; 2016</copyright>
+	<description>dinamic show the time.</description>
+	<icons>
+  		<icon height="48" width="48" src="clock.png" /> 
+	</icons>
+  	<hosts>
+		<host name="sidebar">
+			<base type="HTML " apiVersion="1.0.0" src="gadget.html" />
+			<permissions>Full</permissions>
+			<platform minPlatformVersion="1.0" />
+		</host>
+	</hosts>
+</gadget>
